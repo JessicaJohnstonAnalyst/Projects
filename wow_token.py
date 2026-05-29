@@ -1,3 +1,9 @@
+'''
+Author Note: Before using this, you will need to:
+1) Go to the Battle.Net Developer Portal in order to get a Client_ID and Client_Secret.  How to do this can be found online.  You will need to ensure you've got a Battle.Net account with an Authenticator.
+2) Go to the Google Develop Portal and download the json file for the sheet you want to update.  You will need the filepath for this.
+'''
+
 import requests
 
 def create_access_token(client_id, client_secret, region='us'):
